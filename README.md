@@ -2,6 +2,7 @@
 Welcome to my Full Stack Projects Repository! This repo contains a collection of full-stack web applications built using various technologies like Java, Angular, MySQL, Servlets, JDBC, and more.
 
 📌 Projects Included
+
 1️⃣ Employee Management System
 🔹 Tech Stack: HTML, CSS, JavaScript, Servlets, J2EE, JDBC, MySQL
 🔹 Description: A CRUD-based employee management system where users can add, edit, delete, and view employee details.
