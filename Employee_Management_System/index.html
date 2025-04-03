@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Employee Register Form</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+    <form name="employeeForm" action="EmployeeForm" method="post" onsubmit="return validateForm(event)">
+        <h1>Employee Register Form</h1>
+        <label>First name </label>
+        <input id="fname" type="text" name="fname" placeholder="First name"><br>
+        <label>Last name </label>
+        <input id="lname" type="text" name="lname" placeholder="Last name"><br>
+        <label>User name </label>
+        <input id="uname" type="text" name="uname" placeholder="User name"><br>
+        <label>Password </label>
+        <input id="password" type="password" name="password" placeholder="Password"><br>
+        <label>Address </label>
+        <input id="address" type="text" autocomplete="street-address" name="address" placeholder="Address"><br>
+        <label>Contact No </label>
+        <input id="cnum" type="number" name="contact" placeholder="Contact"><br>
+
+        <input type="submit" class="submit" value="submit" name="submit">
+        <input type="submit" class="submit" value="show" name="submit">
+    </form>
+</body>
+</html>
